@@ -1,0 +1,231 @@
+body{
+    background-image: url("background.jpg");
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+}
+
+header{
+  margin: 20px 20px 20px 20px;
+  max-width: 90%;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-center{
+  margin: auto;
+  width: 1150px;
+  flex-basis: 54%;
+  align-items: center;
+  display: grid;
+  grid-template-columns:repeat(3,  15%);
+  gap: 10%;
+  justify-content:center;
+  font-size: large;
+}
+
+.phone{
+  margin-left: auto;
+  font-size: large;
+}
+.logo{
+  white-space: break-spaces;
+  color: #46b1de;
+  margin-right: auto;
+  font-family: "Russo One";
+} 
+.logo_pic{
+  padding: 0% 10% 0% 10%;
+}
+
+.header_logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  display: grid;
+  gap: 20%;
+}
+
+.content{
+  padding-top: 200px;
+  font-family: "Russo One";
+}
+
+div p {
+  white-space: break-spaces;
+  margin: 0%;
+} 
+
+.btn{
+  display: flex;
+}
+.btn_call{
+  color: white;
+  border:1px solid rgb(0, 0, 0);
+  background-color: #46b1de;
+  padding: 10px 40px 10px 40px;
+  margin: 50px;
+}
+
+.btn_Services{
+  color:#46b1de;
+  border:1px solid rgb(0, 0, 0);
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+  margin: 50px;
+}
+
+
+.bottom{
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  
+ } 
+.bottom1{
+  display: flex;
+  border:1px solid rgb(0, 0, 0);
+  background-color: white;
+  width: 240px;
+  height: 60px;
+  padding: 5px;
+z-index: 3;
+}
+
+.lady{
+  margin-top: 200px;
+  z-index: 2;
+  position: absolute;
+  height: 600px;
+  display: flex;
+  right: -30;
+ 
+}
+
+.middle{
+  margin-top: 100px;
+  text-align: center;
+}
+.colunms{
+  margin: 7%;
+  padding: 16px;
+  margin-top: 100px;
+  background-color: #A0C7D2;
+  border-radius: 7px;
+  max-width: 880px;
+  display: grid;
+  grid-template-columns:repeat(3,  280px);
+  grid-template-rows: repeat(2,  150px);
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.colunms div{
+background-color: white;
+border-radius: 7px;
+padding: 4%;
+}
+
+.numbers{
+  color: #46b1de;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.numbers div{
+  font-size: 35px;
+  padding-top: 0;
+}
+
+@font-face {
+  font-family: "Russo One";
+src: url("../fonts/AnyConv.com__RussoOne-Regular.woff");
+}
+
+@font-face {
+  font-family: "Muller_regular";
+  src: url(../fonts/MullerRegular.woff),
+  url(../fonts/MullerRegular.woff2)
+}
+@font-face{
+  font-family: "Muller_bold";
+  src: url(../fonts/MullerBold.woff),
+  url(../fonts/MullerBold.woff2);
+}
+
+div{
+  font-family: "Muller_regular";
+}
+
+h2{
+  font-family: "Russo One";
+}
+
+.numbers{
+  font-family: "Muller_bold";
+}
+
+.numbers div{
+  font-family: "Muller_bold";
+}
+
+.numbers_bottom{
+  font-family: "Muller_bold";
+}
+
+.logo1{
+  white-space: break-spaces;
+  color: #095778;
+  margin-right: auto;
+  font-family: "Muller_regular";
+  font-size: x-large;
+  padding-top: 10px;|
+}
+
+.footer{
+  background: linear-gradient(to right, rgb(201, 225, 236), #288fb1 77%);
+padding: 25px;
+display: flex;
+margin-left: -11%;
+}
+
+.btn_home{
+  color: #095778;
+  padding: 10px 40px 10px 40px;
+ margin-left: -40px;
+ text-decoration: none;
+}
+
+.btn_Services1{
+  color: #095778;
+  padding: 10px 40px 10px 40px;
+  margin-left: -40px ;
+  text-decoration: none;}
+
+.language{
+  display: flex;
+}
+
+.working_hours div{
+  color: #095778;
+  margin-left: 65px;
+}
+
+.footer_inside{
+  display: flex;
+}
+
+.contacts{
+    margin-left: 50%;
+    line-height: 1.5
+}
+.contacts div{
+  color: white;
+}
